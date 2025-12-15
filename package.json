@@ -1,17 +1,17 @@
 {
-  "name": "@micro/app",
+  "name": "@maps/app",
   "version": "0.0.1",
-  "description": "micro",
+  "description": "maps",
   "keywords": [
-    "micro"
+    "maps"
   ],
-  "homepage": "https://github.com/hieudoanm/micro#readme",
+  "homepage": "https://hieudoanm.github.io/maps",
   "bugs": {
-    "url": "https://github.com/hieudoanm/micro/issues"
+    "url": "https://github.com/hieudoanm/maps/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hieudoanm/micro.git"
+    "url": "git+ssh://git@github.com/hieudoanm/maps.git"
   },
   "license": "GPL-3.0",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
@@ -22,6 +22,7 @@
   "scripts": {
     "dev": "turbo run dev",
     "lint": "turbo run lint",
+    "test": "turbo run test",
     "build": "turbo run build",
     "format": "turbo run format",
     "prepare": "husky || true"
