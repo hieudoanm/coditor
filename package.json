@@ -1,17 +1,17 @@
 {
-  "name": "@maps/app",
+  "name": "@coditor/workspaces",
   "version": "0.0.1",
-  "description": "maps",
+  "description": "Coditor",
   "keywords": [
-    "maps"
+    "coditor"
   ],
-  "homepage": "https://hieudoanm.github.io/maps",
+  "homepage": "https://hieudoanm.github.io/coditor",
   "bugs": {
-    "url": "https://github.com/hieudoanm/maps/issues"
+    "url": "https://github.com/hieudoanm/coditor/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hieudoanm/maps.git"
+    "url": "git+ssh://git@github.com/hieudoanm/coditor.git"
   },
   "license": "GPL-3.0",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",

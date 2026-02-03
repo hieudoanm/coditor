@@ -14,7 +14,7 @@
     "jsx": "react-jsx",
     "incremental": true,
     "paths": {
-      "@maps/*": ["./src/*"]
+      "@coditor/*": ["./src/*"]
     }
   },
   "include": [
