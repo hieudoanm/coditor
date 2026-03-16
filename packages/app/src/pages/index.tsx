@@ -6,6 +6,7 @@ import { rust } from '@codemirror/lang-rust';
 import { yaml } from '@codemirror/lang-yaml';
 import { oneDark } from '@codemirror/theme-one-dark';
 import CodeMirror from '@uiw/react-codemirror';
+import { NextPage } from 'next';
 import { useState } from 'react';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -18,7 +19,7 @@ const languages: Record<string, () => any> = {
   yaml,
 };
 
-export default function HomePage() {
+const HomePage: NextPage = () => {
   const [{ language = 'javascript', code = '' }, setState] = useState<{
     language: string;
     code: string;
@@ -63,4 +64,6 @@ export default function HomePage() {
       </div>
     </div>
   );
-}
+};
+
+export default HomePage;
