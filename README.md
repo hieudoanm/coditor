@@ -39,6 +39,9 @@ Coditor is a focused project in this monorepo that delivers a practical tool wit
 - 💻 [CLI](https://github.com/hieudoanm/coditor/releases)
 - 📱 [Mobile](https://github.com/hieudoanm/coditor/releases)
 - 🖥️ [Desktop](https://github.com/hieudoanm/coditor/releases)
+  - 🍎 [MacOS](https://github.com/hieudoanm/coditor/releases/tag/macos-latest)
+  - 🐧 [Ubuntu](https://github.com/hieudoanm/coditor/releases/tag/ubuntu-latest)
+  - 🪟 [Windows](https://github.com/hieudoanm/coditor/releases/tag/windows-latest)
 
 ## 🛠️ 5. Development Stack
 
