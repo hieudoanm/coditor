@@ -3,7 +3,6 @@ import { javascript } from '@codemirror/lang-javascript';
 import { markdown } from '@codemirror/lang-markdown';
 import { python } from '@codemirror/lang-python';
 import { rust } from '@codemirror/lang-rust';
-import { yaml } from '@codemirror/lang-yaml';
 import { oneDark } from '@codemirror/theme-one-dark';
 import CodeMirror from '@uiw/react-codemirror';
 import { useState } from 'react';
@@ -15,7 +14,6 @@ const languages: Record<string, () => any> = {
   markdown,
   python,
   rust,
-  yaml,
 };
 
 export default function HomePage() {
@@ -46,7 +44,6 @@ export default function HomePage() {
           <option value="python">Python</option>
           <option value="markdown">Markdown</option>
           <option value="rust">Rust</option>
-          <option value="yaml">YAML</option>
         </select>
         <div className="grow">
           <CodeMirror
