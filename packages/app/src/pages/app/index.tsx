@@ -1,6 +1,5 @@
 import { java } from '@codemirror/lang-java';
 import { javascript } from '@codemirror/lang-javascript';
-import { markdown } from '@codemirror/lang-markdown';
 import { python } from '@codemirror/lang-python';
 import { rust } from '@codemirror/lang-rust';
 import { oneDark } from '@codemirror/theme-one-dark';
@@ -11,7 +10,6 @@ import { useState } from 'react';
 const languages: Record<string, () => any> = {
   java,
   javascript,
-  markdown,
   python,
   rust,
 };
@@ -42,7 +40,6 @@ export default function HomePage() {
           <option value="java">Java</option>
           <option value="javascript">Javascript</option>
           <option value="python">Python</option>
-          <option value="markdown">Markdown</option>
           <option value="rust">Rust</option>
         </select>
         <div className="grow">
