@@ -1,8 +1,8 @@
-# 🚀 [Coditor](https://hieudoanm.github.io/coditor/)
+# 🚀 [Pokedex](https://hieudoanm.github.io/pokedex/)
 
 ## 📚 Table of Contents
 
-- [🚀 Coditor](#-coditor)
+- [🚀 Pokedex](#-pokedex)
   - [📚 Table of Contents](#-table-of-contents)
   - [📖 1. Overview](#-1-overview)
   - [✨ 2. Features](#-2-features)
@@ -19,11 +19,11 @@
 
 ## 📖 1. Overview
 
-Coditor is a focused project in this monorepo that delivers a practical tool with a clean user experience across platforms.
+Pokedex is a focused project in this monorepo that delivers a practical tool with a clean user experience across platforms.
 
 ## ✨ 2. Features
 
-1. [x] Core functionality tailored to Coditor
+1. [x] Core functionality tailored to Pokedex
 2. [x] Web experience for quick access
 3. [x] CLI distribution for automation workflows
 4. [x] Mobile-ready build targets

@@ -31,7 +31,7 @@ const AppPage: NextPage = () => {
             key={p.id}
             className="card bg-base-200 flex flex-col items-center rounded-xl p-4 shadow-lg transition-transform hover:scale-105">
             <img
-              src={`https://raw.githubusercontent.com/hieudoanm/pokedex/master/packages/data/pokemon/images/${p.id}.png`}
+              src={`https://raw.githubusercontent.com/hieudoanm/pokedex/master/packages/data/pokemon/images/${p.name}.png`}
               alt={p.name}
               className="mb-2 h-20 w-20 object-contain"
             />
