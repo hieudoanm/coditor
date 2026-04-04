@@ -1,5 +1,4 @@
 import { java } from '@codemirror/lang-java';
-import { javascript } from '@codemirror/lang-javascript';
 import { python } from '@codemirror/lang-python';
 import { rust } from '@codemirror/lang-rust';
 import { oneDark } from '@codemirror/theme-one-dark';
@@ -9,18 +8,21 @@ import { useState } from 'react';
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const languages: Record<string, () => any> = {
   java,
-  javascript,
   python,
   rust,
 };
 
 export default function HomePage() {
-  const [{ language = 'javascript', code = '' }, setState] = useState<{
+  const [{ language = 'java', code = '' }, setState] = useState<{
     language: string;
     code: string;
   }>({
-    language: 'javascript',
-    code: `function hello() {\n  console.log("Hello world")\n}`,
+    language: 'java',
+    code: `public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}`,
   });
 
   return (
@@ -38,7 +40,6 @@ export default function HomePage() {
             }))
           }>
           <option value="java">Java</option>
-          <option value="javascript">Javascript</option>
           <option value="python">Python</option>
           <option value="rust">Rust</option>
         </select>
